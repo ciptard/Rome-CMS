@@ -1,0 +1,1 @@
+<?= Rome::partial('admin/contentform', array('data' => $data, 'formAction' => $formAction)) ?>

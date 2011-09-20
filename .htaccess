@@ -1,0 +1,4 @@
+RewriteEngine ON
+
+# Send all non-media requests to index.php for processing
+RewriteRule !\.(js|ico|gif|jpg|png|css|swf|jpeg|pdf|htm)$ index.php

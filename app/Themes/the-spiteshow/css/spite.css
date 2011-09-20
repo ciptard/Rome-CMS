@@ -1,0 +1,132 @@
+body {
+	background:#fff;
+	color:#444;
+	font-family:Georgia,futura,serif;
+	font-size:13px;
+}
+
+a {
+	color:#be0000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#666;
+}
+
+div#wrapper {
+	
+}
+
+div#container {
+	margin:50px auto 0;
+	width:300px; /* was 260 */
+}
+
+h1#logo {
+	background:url(/app/Themes/the-spiteshow/images/logo-smaller.png) no-repeat top center;
+	height:185px;
+	margin:0 0 30px;
+	text-indent:-10000px;
+	width:300px;
+}
+
+div#content {
+	line-height:20px;
+	padding:0 5px;
+}
+
+div#bio {
+	margin:0 0 25px;
+}
+
+div#content p {
+	margin:0 0 15px;
+	text-align:justify;
+}
+
+ul.tweetsList li {
+	background:#ededed;
+	cursor:pointer;
+	margin:0 0 5px;
+	padding:7px;
+}
+
+ul.tweetsList li.hover {
+	background:#ddd;
+}
+
+h3.tweetsHeader {
+	color:#777;
+	font-size:25px;
+	font-weight:bold;
+	margin:0 0 10px;
+}
+
+h3.tweetsHeader span {
+	color:#b64f50;
+}
+
+div#footer {
+	border-top:1px solid #ccc;
+	clear:both;
+	color:#666;
+	font-size:12px;
+	margin:20px 0 0;
+	padding:20px 0;
+	text-align:center;
+}
+
+div#linkLists {
+	margin:0 auto 30px;
+	overflow:hidden;
+	width:200px;
+}
+
+div#linkLists ul.links li {
+	display:block;
+	float:left;
+	height:55px;
+	width:55px;
+}
+
+div#linkLists ul.links li.twitterLink,
+div#linkLists ul.links li.linkedinLink {
+	margin:0 17px 0 0;
+}
+
+div#linkLists ul.links li a {
+	background:url(/app/Themes/the-spiteshow/images/icons.png) no-repeat;
+	display:block;
+	height:55px;
+	text-indent:-10000px;
+	width:55px;
+}
+
+div#linkLists ul.links li.twitterLink a { background-position-x:-162px; }
+div#linkLists ul.links li.linkedinLink a { background-position-x:-216px; }
+div#linkLists ul.links li.emailLink a{ background-position-x:-54px; }
+
+div#linkLists ul.links li a:hover {
+	background-position-y:-56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

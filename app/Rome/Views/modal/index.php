@@ -1,0 +1,1 @@
+<?= Roam::partial('admin/profile', array('settings' => $settings)) ?>
