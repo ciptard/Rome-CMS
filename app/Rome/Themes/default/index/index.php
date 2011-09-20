@@ -5,7 +5,7 @@
 	<?php if ($tweets) { ?>
 	<p><strong>Recent Tweets</strong></p>
 	<ul>
-		<?php foreach(array_slice($tweets, 0, $number_of_tweets) as $tweet) { arg?>
+		<?php foreach(array_slice($tweets, 0, $number_of_tweets) as $tweet) { ?>
 		<li><?= $tweet['tweet'] ?></li>
 		<?php } ?>
 	</ul>
